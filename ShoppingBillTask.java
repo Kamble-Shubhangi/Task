@@ -39,7 +39,7 @@ public class ShoppingBillTask {
         double finalPayable = calculateDiscountedBill(a, b, c, d, e);
         double discountAmount = totalAfterGST - finalPayable;
 
-        System.out.printf("Total after GST = %.2f | Discount = %.2f | Final payable amount = %.2f%n", 
+        System.out.printf("Total after GST = %.2f | Discount = %.2f | Final payable amount = %.2f%n :", 
                           totalAfterGST, discountAmount, finalPayable);
     }
 }
